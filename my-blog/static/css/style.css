@@ -1,0 +1,59 @@
+footer {
+  background-color: var(--bs-gray-200);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  font-size: 20px;
+}
+
+body {
+}
+
+.container {
+  height: 100%;
+  padding: 30px;
+}
+
+#home header {
+  text-align: center;
+}
+#home header h1,
+#home header h4 {
+  margin-bottom: 20px;
+}
+#home main {
+  padding: 50px 0;
+  display: flex;
+}
+
+.logo {
+  height: 25px;
+  width: 25px;
+}
+
+.joinus {
+  color: #ff7f2b;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: larger;
+  align-items: center;
+  width: 535px;
+}
+.joinus:hover {
+  color: black;
+}
+
+.addPost {
+  background-color: #ff7f2b;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  font-size: larger;
+}
